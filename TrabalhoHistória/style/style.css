@@ -8,16 +8,6 @@ body{
     background-attachment: fixed;
     height: 100vh;
 }
-button#nex, button#prev{
-    cursor: pointer;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.491);
-    height: 50px;
-    width: 50px;
-    font-size: 30px;
-    border-radius: 50% 50%;
-}
-
 div#next{
     position: relative;
     top: 46%;
@@ -42,4 +32,13 @@ div#pre{
 }
 .slide p{
     font-size: 18px;
+}
+.prev-next{
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.491);
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border-radius: 50% 50%;
 }
