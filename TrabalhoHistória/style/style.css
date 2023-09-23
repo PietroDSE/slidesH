@@ -1,39 +1,59 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 body{
+    font-family: 'Mooli', sans-serif;
+    color: #ddd;
     margin: 0;
     padding: 0;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
     background-image: url('../img/background.jpg');
     background-attachment: fixed;
+    background-repeat: no-repeat;
     height: 100vh;
+    z-index: -999;
+}
+div#SlideContainer{
+    position: relative;
+    z-index: 999;
 }
 div#next{
-    position: relative;
-    top: 46%;
     margin-right: 15px;
     display: flex;
     justify-content: right;
 }
 div#pre{
-    
     position: relative;
     top: 37.1%;
     margin-left: 15px;
     display: flex;
     justify-content: left;
 }
+div#slide1 h1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 30px;
+}
 .slide{
     display: none;
     padding: 20px;
 }
-.slide h1{
-    font-size: 24px;
+h1{
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
 }
-.slide p{
-    font-size: 18px;
+p{
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    font-size: 26px;
 }
 .prev-next{
+    position: fixed;
+    top: 44%;
     cursor: pointer;
     border: none;
     background-color: rgba(255, 255, 255, 0.491);
