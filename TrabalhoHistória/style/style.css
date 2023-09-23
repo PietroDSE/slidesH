@@ -11,6 +11,20 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
     z-index: -999;
+    overflow: hidden;
+}
+ol{
+    position: relative;
+    top: 19vw;
+    font-size: 20px;
+    left: 6.3vw;
+}
+li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
 }
 div#SlideContainer{
     position: relative;
@@ -30,21 +44,20 @@ div#pre{
 }
 div#slide1 h1{
     position: absolute;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%);
     text-align: center;
     word-wrap: break-word;
-    font-size: 30px;
+    font-size: 20px;
 }
 div.content h1{
     font-size: 40px;
     position: absolute;
     top: 2%;
 }
-div.content p{
+div.content p, .pB{
     width: 50%;
 }
-
 .slide{
     display: none;
     padding: 20px;
