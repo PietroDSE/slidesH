@@ -56,10 +56,10 @@ div.content h1{
     top: 2%;
 }
 a{
-    color: red;
+    color: blue;
 }
 a:hover{
-    color: rgba(255, 0, 0, 0.621);
+    color: rgba(44, 44, 240, 0.979);
 }
 div.content p, .pB{
     width: 50%;
