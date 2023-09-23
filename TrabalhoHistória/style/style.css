@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 body{
     font-family: 'Mooli', sans-serif;
-    color: #ddd;
+    color: ghostwhite;
     margin: 0;
     padding: 0;
     background-size: 100% 100%;
@@ -36,6 +36,15 @@ div#slide1 h1{
     word-wrap: break-word;
     font-size: 30px;
 }
+div.content h1{
+    font-size: 40px;
+    position: absolute;
+    top: 2%;
+}
+div.content p{
+    width: 50%;
+}
+
 .slide{
     display: none;
     padding: 20px;
