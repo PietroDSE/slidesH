@@ -1,8 +1,12 @@
 const slides = document.querySelectorAll('.slide');
 const nextButton = document.querySelector('button#nex');
 const prevButton = document.querySelector('button#prev');
+const nextTopic = document.querySelector('button#nextTopic')
 let currentSlideIndex = 0;
 
+nextTopic.addEventListener('click', () =>{
+    document.location.href ='tópicos/tópico1/index.html'
+})
 function showSlide() {
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = 'none';
@@ -26,6 +30,16 @@ function prevSlide() {
     showSlide();
 }
 
+document.addEventListener('keydown', function(event){
+    if (event.key === 'ArrowRight'){
+        nextSlide()
+    }
+})
+document.addEventListener('keydown', function(event){
+    if(event.key === 'ArrowLeft'){
+        prevSlide()
+    }
+})
 showSlide();
 
 nextButton.addEventListener('click', nextSlide);
