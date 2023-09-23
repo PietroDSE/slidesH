@@ -108,3 +108,6 @@ button#nextTopic:hover{
     background-color: white;
     color: black;
 }
+abbr{
+    cursor: pointer;
+}

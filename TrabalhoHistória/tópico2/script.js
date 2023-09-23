@@ -5,7 +5,7 @@ const nextTopic = document.querySelector('button#nextTopic')
 let currentSlideIndex = 0;
 
 nextTopic.addEventListener('click', () =>{
-    document.location.href ='tópico2/index.html'
+    document.location.href ='../tópico3/index.html'
 })
 function showSlide() {
     for (let i = 0; i < slides.length; i++) {
