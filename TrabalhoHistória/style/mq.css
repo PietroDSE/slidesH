@@ -1,0 +1,23 @@
+@media screen and (min-width: 1002px){
+    ol{
+        top: 15vw;
+    }
+}
+
+@media screen and (max-width: 766px){
+
+    div#slide1 h1{
+        text-align: left;
+        left: 150px;
+        top: 5%;
+    }
+    div.content p, .pB{
+        font-size: 18px;
+        left: 77px;
+        top: 22%;
+        width: 77%;
+    };
+    ol{
+        top: 25vw
+    }
+}

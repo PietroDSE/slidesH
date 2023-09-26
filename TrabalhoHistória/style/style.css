@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background-size: 100% 100%;
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/bg.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
@@ -51,6 +51,7 @@ div#slide1 h1{
     font-size: 20px;
 }
 div.content h1{
+    text-wrap: nowrap;
     font-size: 40px;
     position: absolute;
     top: 2%;
@@ -69,9 +70,14 @@ div.content p, .pB{
     padding: 20px;
 }
 h1{
-    position: absolute;
+    margin-left: 20px;
+    position: relative;
     top: 10%;
     font-size: 50px;
+}
+div#h1{
+    width: 1000px;
+    height: 60px;
 }
 p{
     position: absolute;
@@ -110,4 +116,12 @@ button#nextTopic:hover{
 }
 abbr{
     cursor: pointer;
+}
+footer{
+    position: fixed;
+    text-wrap: nowrap;
+    top: 60%;
+    color: black;
+    font-weight: bolder;
+    font-style: oblique;
 }
