@@ -11,7 +11,12 @@
         left: 150px;
         top: 5%;
     }
-    div.content p, .pB{
+    div.content p{
+        width: 77%;
+        left: 77px;
+        font-size: 18px;
+    }
+    div.content .pB{
         font-size: 18px;
         left: 77px;
         top: 22%;

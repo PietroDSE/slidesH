@@ -7,8 +7,6 @@ body{
     padding: 0;
     background-size: 100% 100%;
     background-image: url('../img/bg.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     height: 100vh;
     z-index: -999;
     overflow: hidden;
@@ -52,7 +50,7 @@ div#slide1 h1{
 }
 div.content h1{
     text-wrap: nowrap;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     top: 2%;
 }
@@ -62,9 +60,10 @@ a{
 a:hover{
     color: rgba(44, 44, 240, 0.979);
 }
-div.content p, .pB{
+div.content p{
     width: 50%;
 }
+
 .slide{
     display: none;
     padding: 20px;
