@@ -4,8 +4,19 @@ const prevButton = document.querySelector('button#prev');
 const nextTopic = document.querySelector('button#nextTopic')
 let currentSlideIndex = 0;
 
+
+document.addEventListener('keydown', function(event){
+    if(event.key === 'Enter'){
+        document.location.href ='../tópico6/index.html'
+    }
+})
+document.addEventListener('keydown', function(event){
+    if(event.key === 'Backspace'){
+        document.location.href ='../tópico4/index.html'
+    }
+})
 nextTopic.addEventListener('click', () =>{
-    document.location.href ='tópico2/index.html'
+    document.location.href ='../tópico5/index.html'
 })
 function showSlide() {
     for (let i = 0; i < slides.length; i++) {

@@ -7,16 +7,16 @@ let currentSlideIndex = 0;
 
 document.addEventListener('keydown', function(event){
     if(event.key === 'Enter'){
-        document.location.href ='../tópico3/index.html'
+        document.location.href ='../tópico5/index.html'
     }
 })
 document.addEventListener('keydown', function(event){
     if(event.key === 'Backspace'){
-        document.location.href ='../tópico1/index.html'
+        document.location.href ='../tópico3/index.html'
     }
 })
 nextTopic.addEventListener('click', () =>{
-    document.location.href ='../tópico3/index.html'
+    document.location.href ='../tópico5/index.html'
 })
 function showSlide() {
     for (let i = 0; i < slides.length; i++) {

@@ -42,18 +42,22 @@ div#pre{
 }
 div#slide1 h1{
     position: absolute;
-    left: 20%;
+    left: 30%;
     transform: translate(-50%);
-    text-align: center;
+    text-align: left;
     word-wrap: break-word;
-    font-size: 20px;
+    font-size: 30px;
 }
 div.content h1{
     text-wrap: nowrap;
-    font-size: 30px;
+    font-size: 45px;
     position: absolute;
     top: 2%;
 }
+div.slide h1#h1{
+    left: 37%;
+}
+
 a{
     color: blue;
 }
@@ -73,10 +77,6 @@ h1{
     position: relative;
     top: 10%;
     font-size: 50px;
-}
-div#h1{
-    width: 1000px;
-    height: 60px;
 }
 p{
     position: absolute;
