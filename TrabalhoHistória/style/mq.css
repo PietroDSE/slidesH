@@ -1,11 +1,13 @@
-@media screen and (min-width: 1002px){
-    ol{
-        top: 15vw;
+@charset "UTF-8";
+@media screen and (max-width:1106px){
+    img#CostaFlag{
+        display: none;
     }
 }
-
 @media screen and (max-width: 766px){
-
+    img#CostaFlag{
+        display: none;
+    }
     div#slide1 h1#h1{
         width: 450px;
         left: 50%;
@@ -24,7 +26,5 @@
         top: 25vw;
         width: 77%;
     }
-    ol{
-        top: 35vw;
-    }
+
 }

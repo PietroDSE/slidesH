@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 body{
+    box-sizing: border-box;
     font-family: 'Mooli', sans-serif;
     color: ghostwhite;
     margin: 0;
@@ -11,10 +12,18 @@ body{
     z-index: -999;
     overflow: hidden;
 }
+img#CostaFlag{
+    width: 600px;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 4px black;
+}
 ol{
     position: relative;
     top: 19vw;
-    font-size: 20px;
+    font-size: 25px;
     left: 6.3vw;
 }
 li a{
@@ -55,7 +64,7 @@ div.content h1{
     top: 2%;
 }
 div.slide h1#h1{
-    left: 37%;
+    left: 15%;
 }
 
 a{
