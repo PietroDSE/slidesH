@@ -108,7 +108,7 @@ p{
     font-size: 30px;
     border-radius: 50% 50%;
 }
-button#nextTopic{
+button#nextTopic, button#prevTopic{
     border-radius: 15px;
     cursor: pointer;
     width: 150px;
